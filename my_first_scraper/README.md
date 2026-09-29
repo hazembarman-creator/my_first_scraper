@@ -1,17 +1,39 @@
-# Project Title
-A brief description of what your project does and its purpose.
+# My First Scraper
+A simple web‑scraping project designed to extract specific information from a target website.  
+This project introduces the fundamentals of HTTP requests, HTML parsing, and data extraction.
+
+***
 
 ## Task
-Describe the tasks your project addresses and its main functionalities.
+The goal of this project is to build a basic scraper that:
+- Sends a request to a webpage  
+- Retrieves the HTML content  
+- Parses and extracts useful information  
+- Displays or stores the extracted data  
+
+This project helps you understand how scrapers work and how to interact with web content programmatically.
+
+***
 
 ## Description
-Provide a detailed overview of your project. Explain how it works and its features.
+This scraper fetches data from a given URL and processes the page content to extract the required information.  
+Depending on your implementation, the scraper may use:
+
+- `requests` for fetching HTML  
+- `BeautifulSoup` or similar libraries for parsing  
+- Custom logic for filtering and formatting extracted data  
+
+The project demonstrates:
+- How to handle HTTP responses  
+- How to parse HTML structures  
+- How to extract text, tags, or attributes  
+- Basic error handling (invalid URL, connection issues, missing elements)
+
+***
 
 ## Installation
-Step-by-step instructions on how to install your project. Include any dependencies required.
+Follow these steps to install and run the project:
 
-## Usage
-Instructions on how to use your project after installation. Provide examples and commands.
-
-## Qwasar Reference
-Reference any relevant links or documentation related to Qwasar that applies to your project.
+```bash
+git clone https://github.com/username/my_first_scraper.git
+cd my_first_scraper
